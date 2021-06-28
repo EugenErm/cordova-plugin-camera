@@ -164,7 +164,7 @@ static NSString* toBase64(NSData* data) {
                      // Denied; show an alert
                      dispatch_async(dispatch_get_main_queue(), ^{
                          UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Zugriff erlauben"
-                          message:"Um fortzufahren, erlaube bitte den Zugriff auf deine Kamera in den App-Einstellungen für Rubbibox.\n\nDanach kannst du Fotos von deinen Rubbis direkt aufnehmen und hochladen oder im Chat senden."
+                          message:@"Um fortzufahren, erlaube bitte den Zugriff auf deine Kamera in den App-Einstellungen für Rubbibox.\n\nDanach kannst du Fotos von deinen Rubbis direkt aufnehmen und hochladen oder im Chat senden."
                           preferredStyle:UIAlertControllerStyleAlert];
 
 
